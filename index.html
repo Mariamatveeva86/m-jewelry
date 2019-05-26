@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>M's Jewelry</title>
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script:700|Tangerine:700|Zilla+Slab+Highlight:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<!-- Header /////////////////////// -->
+  <header>
+    <div class="header-wrapper container flex">
+      <div id="logo">
+        <a href="index.html"><img src="img/diamond.png" alt="Logo"></a>
+      </div>
+<!-- Nav /////////////////////// -->
+      <nav class="navbar flex">
+        <ul class="navbar-list">
+          <a href="#">Main</a>
+          <a href="#">Collections</a>
+          <a href="#">Orders</a>
+          <a href="#">Account</a>
+          <a href="#">Support</a>
+        </ul>
+      </nav>
+      <span class="open-side">
+        <a href="#" onclick="openSideMenu()">
+          <svg width="30" height="30">
+            <path d="M0,5 30,5" stroke="#707a7a" stroke-width="5"/>
+            <path d="M0,14 30,14" stroke="#707a7a" stroke-width="5"/>
+            <path d="M0,23 30,23" stroke="#707a7a" stroke-width="5"/>
+          </svg>
+        </a>
+      </span>
+      <div id="side-menu" class="side-nav">
+        <a href="#" class="btn-close" onclick="closeSideMenu()">&times;</a>
+        <a href="#">Main</a>
+        <a href="#">Collections</a>
+        <a href="#">Orders</a>
+        <a href="#">Account</a>
+        <a href="#">Support</a>
+      </div>
+    </div>
+  </header>
+<!-- Showcase /////////////////////// -->
+  <section id="showcase">
+    <div class="showcase-wrapper container flex">
+      <h1>M's Jewelry</h1>
+      <p>get ready to fall in love</p>
+    </div>
+  </section>
+<!-- Catalog ////////////////////// -->
+  <section id="catalog">
+    <h3>New Arrivals</h3>
+    <div class="catalog-wrapper container flex">
+  <!-- Catalog Item -->
+      <div class="catalog-item">
+        <div class="active-hover">
+  <!--Item 1 -->
+          <span class="catalog-item__price"><i class="fas fa-dollar-sign"></i> 154</span>
+          <img src="img/item-1.jpg" class="item-image-main" alt="hoodie">
+          <h4 class="catalog-item__name">Graduated Band Ring</h4>
+          <div class="catalog-item__badge">
+              <p class="catalog-item__description">
+                Graduated band ring with a half circle of round brilliant diamonds.
+              </p>
+              <a href="" class="catalog-item__buy-btn" title="Add to cart"><i class="fas fa-cart-arrow-down"></i> buy now</a>
+              <i class="fa fa-heart"></i>
+        </div>
+      </div>
+    </div>
+<!-- Item 2 -->
+    <div class="catalog-item">
+      <div class="active-hover">
+        <span class="catalog-item__price"><i class="fas fa-dollar-sign"></i> 250</span>
+        <img src="img/item-2.jpg" class="item-image-main" alt="hoodie">
+        <h4 class="catalog-item__name">Crystal Earrings</h4>
+        <div class="catalog-item__badge">
+          <p class="catalog-item__description">
+            Round diamonds catch the light and make it dance. Earrings in 18k.
+          </p>
+          <a href="" class="catalog-item__buy-btn" title="Add to cart"><i class="fas fa-cart-arrow-down"></i> buy now</a>
+          <i class="fa fa-heart"></i>
+         </div>
+       </div>
+      </div>
+<!-- Item 3 -->
+      <div class="catalog-item">
+        <div class="active-hover">
+        <span class="catalog-item__price"><i class="fas fa-dollar-sign"></i> 300</span>
+        <img src="img/item-3.jpg" class="item-image-main" alt="hoodie">
+        <h4 class="catalog-item__name">Smile Pendant</h4>
+        <div class="catalog-item__badge">
+          <p class="catalog-item__description">
+            Graphic angles and clean lines blend to create the beautiful.
+          </p>
+          <a href="" class="catalog-item__buy-btn" title="Add to cart"><i class="fas fa-cart-arrow-down"></i> buy now</a>
+          <i class="fa fa-heart"></i>
+        </div>
+       </div>
+      </div>
+<!-- Item 4 -->
+      <div class="catalog-item">
+        <div class="active-hover">
+        <span class="catalog-item__price"><i class="fas fa-dollar-sign"></i> 225</span>
+        <img src="img/item-4.jpg" class="item-image-main" alt="hoodie">
+        <h4 class="catalog-item__name">Flower Ring</h4>
+        <div class="catalog-item__badge">
+          <p class="catalog-item__description">
+            Artful and delicate, this flower ring is accented with brilliant diamonds.
+          </p>
+          <a href="" class="catalog-item__buy-btn" title="Add to cart"><i class="fas fa-cart-arrow-down"></i> buy now</a>
+          <i class="fa fa-heart"></i>
+        </div>
+       </div>
+      </div>
+<!-- Item 5 -->
+      <div class="catalog-item">
+        <div class="active-hover">
+          <span class="catalog-item__price"><i class="fas fa-dollar-sign"></i> 150</span>
+          <img src="img/item-5.jpg" class="item-image-main" alt="hoodie">
+          <h4 class="catalog-item__name">Wire Earrings</h4>
+          <div class="catalog-item__badge">
+            <p class="catalog-item__description">
+              Bold and elegant, a modern interpretation of a classic design.
+            </p>
+            <a href="" class="catalog-item__buy-btn" title="Add to cart"><i class="fas fa-cart-arrow-down"></i> buy now</a>
+            <i class="fa fa-heart"></i>
+          </div>
+        </div>
+      </div>
+<!-- Item 6 -->
+      <div class="catalog-item">
+        <div class="active-hover">
+          <span class="catalog-item__price"><i class="fas fa-dollar-sign"></i> 510</span>
+          <img src="img/item-6.jpg" class="item-image-main" alt="hoodie">
+          <h4 class="catalog-item__name">Butterfly Ring</h4>
+          <div class="catalog-item__badge">
+            <p class="catalog-item__description">
+              A radiant blue topaz adds a pop of color of this striking ring.
+            </p>
+            <a href="" class="catalog-item__buy-btn" title="Add to cart"><i class="fas fa-cart-arrow-down"></i> buy now</a>
+            <i class="fa fa-heart"></i>
+          </div>
+        </div>
+      </div>
+<!-- Item 7 -->
+      <div class="catalog-item">
+          <div class="active-hover">
+          <span class="catalog-item__price"><i class="fas fa-dollar-sign"></i> 320</span>
+          <img src="img/item-7.jpg" class="item-image-main" alt="hoodie">
+          <h4 class="catalog-item__name">Horizontal Bar Pendant</h4>
+          <div class="catalog-item__badge">
+            <p class="catalog-item__description">
+              Geometric open pendant is a sophisticated accent to any look.
+            </p>
+            <a href="" class="catalog-item__buy-btn" title="Add to cart"><i class="fas fa-cart-arrow-down"></i> buy now</a>
+            <i class="fa fa-heart"></i>
+          </div>
+        </div>
+      </div>
+<!-- Item 8 -->
+      <div class="catalog-item">
+          <div class="active-hover">
+          <span class="catalog-item__price"><i class="fas fa-dollar-sign"></i> 125</span>
+          <img src="img/item-8.jpg" class="item-image-main" alt="hoodie">
+          <h4 class="catalog-item__name">Narrow Ring</h4>
+          <div class="catalog-item__badge">
+            <p class="catalog-item__description">
+              The intricate links of this ring feature the letters in a bold pattern.
+            </p>
+            <a href="" class="catalog-item__buy-btn" title="Add to cart"><i class="fas fa-cart-arrow-down"></i> buy now</a>
+            <i class="fa fa-heart"></i>
+          </div>
+        </div>
+      </div>
+<!-- Item 9 -->
+      <div class="catalog-item">
+        <div class="active-hover">
+          <span class="catalog-item__price"><i class="fas fa-dollar-sign"></i> 230</span>
+          <img src="img/item-9.jpg" class="item-image-main" alt="hoodie">
+          <h4 class="catalog-item__name">Key Bar Earrings</h4>
+          <div class="catalog-item__badge">
+            <p class="catalog-item__description">
+              These elegant diamond earrings make a sophisticated statement.
+            </p>
+            <a href="" class="catalog-item__buy-btn" title="Add to cart"><i class="fas fa-cart-arrow-down"></i> buy now</a>
+            <i class="fa fa-heart"></i>
+          </div>
+        </div>
+      </div>
+<!-- Item 10 -->
+      <div class="catalog-item">
+        <div class="active-hover">
+          <span class="catalog-item__price"><i class="fas fa-dollar-sign"></i> 240</span>
+          <img src="img/item-10.jpg" class="item-image-main" alt="hoodie">
+          <h4 class="catalog-item__name">Ball Dangle Ring</h4>
+          <div class="catalog-item__badge">
+            <p class="catalog-item__description">
+              This simple ring with a bold ball to make a rebellious statement.
+            </p>
+            <a href="" class="catalog-item__buy-btn" title="Add to cart"><i class="fas fa-cart-arrow-down"></i> buy now</a>
+            <i class="fa fa-heart"></i>
+          </div>
+        </div>
+      </div>
+<!-- Item 11 -->
+      <div class="catalog-item">
+        <div class="active-hover">
+          <span class="catalog-item__price"><i class="fas fa-dollar-sign"></i> 360</span>
+          <img src="img/item-11.jpg" class="item-image-main" alt="hoodie">
+          <h4 class="catalog-item__name">Double Long</h4>
+          <div class="catalog-item__badge">
+            <p class="catalog-item__description">
+              Linear and industrial, these long earring make a bold statement.
+            </p>
+            <a href="" class="catalog-item__buy-btn" title="Add to cart"><i class="fas fa-cart-arrow-down"></i> buy now</a>
+            <i class="fa fa-heart"></i>
+          </div>
+        </div>
+      </div>
+<!-- Item 12 -->
+      <div class="catalog-item">
+        <div class="active-hover">
+        <span class="catalog-item__price"><i class="fas fa-dollar-sign"></i>540</span>
+        <img src="img/item-12.jpg" class="item-image-main" alt="hoodie">
+        <h4 class="catalog-item__name">Wire Bar Earrings</h4>
+        <div class="catalog-item__badge">
+          <p class="catalog-item__description">
+            Graphic angles and clean lines blend to create the beautiful.
+          </p>
+          <div class="buy-like-wrapper">
+          <a href="" class="catalog-item__buy-btn" title="Add to cart"><i class="fas fa-cart-arrow-down"></i> buy now</a>
+          <i class="fa fa-heart"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+  </section>
+<!-- Footer ///////////////////////-->
+  <footer class="footer" id="footer">
+    <div class="copy">©Copyright 2019 by MariaM</div>
+    <ul class="footer__social">
+     <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+     <li><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+     <li><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
+     <li><a href="https://google.com" target="_blank"><i class="fab fa-google"></i></a></li>
+     <li><a href="https://viber.com" target="_blank"><i class="fab fa-viber"></i></a></li>
+   </ul>
+ </footer>
+
+  <script>
+  // Slide Menu for Mobile
+  function openSideMenu() {
+    document.getElementById('side-menu').style.width = '250px';
+  }
+
+  function closeSideMenu() {
+    document.getElementById('side-menu').style.width = '0px';
+  }
+  </script>
+  <script
+  src="http://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
